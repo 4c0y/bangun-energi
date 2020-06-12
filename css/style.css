@@ -73,7 +73,7 @@ header ul li a:hover {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(18, 109, 46, 0.7);
+    /* background-color: rgba(18, 109, 46, 0.7); */
 }
 .banner h2 {
     color: #fff;
@@ -91,7 +91,9 @@ section h3 {
     margin-bottom: 25px;
 }
 .about,
-.service {
+.service,
+.ups,
+.security {
     padding: 100px
 }
 .about p {
@@ -107,8 +109,10 @@ section h3 {
     line-height: 25px;
     margin-bottom: 20px;
     text-align: left;
+    margin-left: 20px;
 }
-.service {
+.service,
+.security {
     background-color: #f9f9f9;
 }
 .box {
@@ -140,6 +144,23 @@ section h3 {
 }
 .box .col-4 h4 {
     margin: 20px 0;
+}
+.ups p,
+.security p {
+    color: #666;
+    word-spacing: 2px;
+    line-height: 25px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.ups ul,
+.security ul {
+    color: #666;
+    word-spacing: 2px;
+    line-height: 25px;
+    margin-bottom: 20px;
+    text-align: left;
+    margin-left: 15px;
 }
 .satu {
     font-size: 15px;
