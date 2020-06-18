@@ -44,7 +44,7 @@ header ul li {
     display: inline-block;
 }
 header ul li a{
-    padding: 25px 5px;
+    padding: 25px 15px;
     display: inline-block;
 }
 header ul li a:hover {
@@ -143,9 +143,6 @@ section h3 {
     text-align: center;
     float: left;
 }
-.box .col-2 h4 {
-    font-size: 1vw;
-}
 .box .col-3 {
     width: 30%;
     padding: 20px;
@@ -153,9 +150,6 @@ section h3 {
     /* border: 1px solid; */
     text-align: center;
     float: left;
-}
-.box .col-3 h4 {
-    font-size: 1vw;
 }
 .box .col-5 {
     width: 30%;
@@ -174,6 +168,10 @@ section h3 {
     line-height: 70px;
     font-size: 20px;
     margin: 0 auto;
+
+}
+.icon:hover{
+    background-color: #A52A2A;
 }
 .box .col-4 h4 {
     margin: 20px 0;
@@ -201,8 +199,9 @@ section h3 {
     margin-left: 15px;
 }
 #link:hover {
-    color: #A52A2A;
+    color: #126d2e;
     text-decoration: underline;
+    font-weight: bolder;
 }
 .satu {
     font-size: 13px;
@@ -249,7 +248,7 @@ footer{
 }
 @media screen and (max-width: 768px){
     .container {
-        width: 80%;
+        width: 100%;
     }
     header h1 {
         text-align: center;
@@ -262,6 +261,21 @@ footer{
     .box .col-4 {
         width: 100%;
         float: none;
+        margin-bottom: 20px;
+    }
+    .box .col-3 {
+        width: 100%;
+        float: none;
+        margin-bottom: 20px;
+    }
+    .box .col-2 {
+        width: 100%;
+        float: none;
+        margin-bottom: 20px;
+    }
+    iframe {
+        width: 100%;
+        float:none;
         margin-bottom: 20px;
     }
 }
