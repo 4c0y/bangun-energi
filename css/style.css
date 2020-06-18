@@ -44,7 +44,7 @@ header ul li {
     display: inline-block;
 }
 header ul li a{
-    padding: 25px 10px;
+    padding: 25px 5px;
     display: inline-block;
 }
 header ul li a:hover {
@@ -143,6 +143,9 @@ section h3 {
     text-align: center;
     float: left;
 }
+.box .col-2 h4 {
+    font-size: 1vw;
+}
 .box .col-3 {
     width: 30%;
     padding: 20px;
@@ -150,6 +153,9 @@ section h3 {
     /* border: 1px solid; */
     text-align: center;
     float: left;
+}
+.box .col-3 h4 {
+    font-size: 1vw;
 }
 .box .col-5 {
     width: 30%;
